@@ -52,6 +52,7 @@ def bfs(source, target):
         for neighbor in neighbors(parent.state):
             neighbor = Node(neighbor[1], parent, neighbor[0])
             if neighbor not in visited:
+                # Target found, path built
                 if neighbor.state == target:
                     while neighbor.parent is not None:
                         path.append((neighbor.action, neighbor.state))
