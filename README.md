@@ -1,6 +1,6 @@
 # BFS(Breadth-First Search)
 
-Ce dépôt contient une implémentation du pseudo-code BFS en python
+Ce dépôt contient une implémentation du pseudo-code recherche en largeur (BFS) en python
 
 
 ## Pour plus d'imformation sur l'algorithme
